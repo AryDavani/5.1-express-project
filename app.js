@@ -23,6 +23,6 @@ app.get('/lorem/:number', function (req, res) {
   res.send(generateHTML(req.params.number));
 })
 
-app.listen(3000, function() {
+app.listen(8080, function() {
   console.log('express app waiting for a response...');
 })
