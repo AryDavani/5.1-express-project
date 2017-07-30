@@ -1,6 +1,8 @@
 const express = require('express');
 const loremIpsum = require('lorem-ipsum');
 
+const app = express();
+
 function generateHTML(num) {
   var count = num ? num : 3;
   return loremIpsum({
